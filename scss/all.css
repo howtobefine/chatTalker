@@ -5313,7 +5313,7 @@ fieldset:disabled .btn {
 }
 
 .accordion-button:not(.collapsed)::after {
-  background-image: url(/images/icon_minus.svg);
+  background-image: url(https://raw.githubusercontent.com/hexschool/webLayoutTraining1st/master/chatTalker_images/icon_minus.svg);
   -webkit-transform: rotate(180deg);
           transform: rotate(180deg);
 }
@@ -5325,7 +5325,7 @@ fieldset:disabled .btn {
   height: 1.25rem;
   margin-left: auto;
   content: "";
-  background-image: url(/images/icon_plus.svg);
+  background-image: url(https://raw.githubusercontent.com/hexschool/webLayoutTraining1st/master/chatTalker_images/icon_plus.svg);
   background-repeat: no-repeat;
   background-size: 1.25rem;
   -webkit-transition: -webkit-transform 0.2s ease-in-out;
@@ -11987,7 +11987,7 @@ fieldset:disabled .btn {
 
 .index_bg {
   position: relative;
-  background-image: url(/images/bg_home_sm.svg);
+  background-image: url(../images/bg_home_sm.svg);
   background-repeat: no-repeat;
   background-position: 50% 414px;
   background-size: 354px;
@@ -11995,14 +11995,14 @@ fieldset:disabled .btn {
 
 @media (min-width: 576px) {
   .index_bg {
-    background-image: url(/images/bg_home.svg);
+    background-image: url(../images/bg_home.svg);
     background-position: right top;
     background-size: 851px;
   }
 }
 
 .price_bg {
-  background-image: url(/images/banner_sm.svg);
+  background-image: url(../images/banner_sm.svg);
   background-repeat: no-repeat;
   background-size: 375px;
   background-position: left 74px;
@@ -12031,7 +12031,7 @@ fieldset:disabled .btn {
 
 @media (min-width: 576px) {
   .price_bg {
-    background-image: url(/images/banner.svg);
+    background-image: url(../images/banner.svg);
     background-position: right top;
   }
   .price_bg::after {
@@ -12049,7 +12049,7 @@ fieldset:disabled .btn {
 }
 
 .ball01_bg {
-  background-image: url(/images/ball01.svg);
+  background-image: url(../images/ball01.svg);
   background-size: 126px;
   width: 126px;
   height: 126px;
@@ -12078,7 +12078,7 @@ fieldset:disabled .btn {
 }
 
 .ball02_bg {
-  background-image: url(/images/ball02.svg);
+  background-image: url(../images/ball02.svg);
   background-size: 135px;
   width: 88px;
   height: 135px;
@@ -12096,7 +12096,7 @@ fieldset:disabled .btn {
 }
 
 .ball03_bg {
-  background-image: url(/images/ball03.svg);
+  background-image: url(../images/ball03.svg);
   background-size: 153px;
   width: 153px;
   height: 153px;
@@ -12115,7 +12115,7 @@ fieldset:disabled .btn {
 }
 
 .ball04_bg {
-  background-image: url(/images/ball03.svg);
+  background-image: url(../images/ball03.svg);
   background-size: 204px;
   width: 204px;
   height: 204px;
@@ -12187,7 +12187,7 @@ fieldset:disabled .btn {
 }
 
 .footer-banner {
-  background-image: url(/images/footer_sm.svg);
+  background-image: url(../images/footer_sm.svg);
   background-repeat: no-repeat;
   background-size: 100vw;
   background-position: top;
@@ -12196,7 +12196,7 @@ fieldset:disabled .btn {
 
 @media (min-width: 768px) {
   .footer-banner {
-    background-image: url(/images/home_footer.svg);
+    background-image: url(../images/home_footer.svg);
     background-repeat: repeat-x;
     background-size: 100vw;
     height: 503px;
