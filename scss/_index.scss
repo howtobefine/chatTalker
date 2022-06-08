@@ -1,0 +1,244 @@
+// Utilities
+.mb_lg {
+    margin-bottom: 60px;
+}
+
+.mb_xl {
+    margin-bottom: 88px;
+}
+
+.mb_xxl {
+    @media (min-width:768px) {
+        margin-bottom: 100px;
+    }
+
+}
+
+.px-6 {
+    padding: 0 90px;
+}
+
+.me_xs {
+    margin-right: 4px;
+}
+
+.font-wendy {
+    font-family: 'Wendy One', sans-serif;
+}
+
+.font-comfortaa {
+    font-family: Comfortaa;
+}
+
+.br_12 {
+    border-radius: 12px !important;
+}
+
+// background
+.index_bg {
+    position: relative;
+    background-image: url(../images/bg_home_sm.svg);
+    background-repeat: no-repeat;
+    background-position: 50% 414px;
+    background-size: 354px;
+
+    @media(min-width:576px) {
+        background-image: url(../images/bg_home.svg);
+        background-position: right top;
+        background-size: 851px;
+    }
+}
+
+.price_bg {
+    background-image: url(../images/banner_sm.svg);
+    background-repeat: no-repeat;
+    background-size: 375px;
+    background-position: left 74px;
+
+    &::after {
+        content: '';
+        position: absolute;
+        background-color: #F7F9FD;
+        border-radius: 0 0 0 150px;
+        width: 100%;
+        height: 495px;
+        right: 0;
+        top: 74px;
+        z-index: -5;
+    }
+
+    @media(min-width: 392px) {
+        background-size: 100vw;
+
+        &::after {
+            height: 560px;
+        }
+    }
+
+    @media(min-width: 576px) {
+        background-image: url(../images/banner.svg);
+        background-position: right top;
+
+
+        &::after {
+            top: 0;
+        }
+
+    }
+
+    @media(min-width: 768px) {
+        background-size: 885px;
+
+        &::after {
+            border-radius: 0 0 0 300px;
+        }
+    }
+}
+
+// ball
+.ball01_bg {
+    background-image: url(../images/ball01.svg);
+    background-size: 126px;
+    width: 126px;
+    height: 126px;
+    top: 17%;
+    left: -77px;
+    z-index: 1;
+
+    @media(min-width: 768px) {
+        top: 25%;
+        left: -100px;
+        background-size: 180px;
+        width: 180px;
+        height: 180px;
+    }
+
+    @media(min-width: 992px) {
+        background-size: 360px;
+        width: 360px;
+        height: 360px;
+        left: -222px;
+    }
+}
+
+.ball02_bg {
+    background-image: url(../images/ball02.svg);
+    background-size: 135px;
+    width: 88px;
+    height: 135px;
+    top: 66%;
+    right: 0;
+
+    @media(min-width:992px) {
+        background-size: 310px;
+        width: 210px;
+        height: 310px;
+        top: 59%;
+    }
+}
+
+.ball03_bg {
+    background-image: url(../images/ball03.svg);
+    background-size: 153px;
+    width: 153px;
+    height: 153px;
+    bottom: 2.5%;
+    left: -76px;
+
+    @media(min-width: 992px) {
+        background-size: 150px;
+        width: 150px;
+        height: 150px;
+        bottom: 5.5%;
+        left: 200px;
+    }
+}
+
+.ball04_bg {
+    background-image: url(../images/ball03.svg);
+    background-size: 204px;
+    width: 204px;
+    height: 204px;
+    top: 60%;
+    left: -98px;
+    z-index: -5;
+
+    @media(min-width: 992px) {
+        background-size: 361px;
+        width: 361px;
+        height: 361px;
+        top: 53%;
+        left: -267px;
+    }
+}
+
+// topBtn
+#topBtn {
+    display: none;
+    position: fixed;
+    z-index: 5;
+    right: 48px;
+    bottom: 48px;
+    width: 71px;
+    height: 71px;
+    cursor: pointer;
+}
+
+
+// header
+.logo {
+    width: 130px;
+    height: 24px;
+
+    @media(min-width: 576px) {
+        width: 218px;
+        height: 40px;
+    }
+}
+
+// main
+.icon {
+    width: 60px;
+    height: 60px;
+
+    @media(min-width: 576px) {
+        width: 90px;
+        height: 90px;
+    }
+}
+
+.circle-icon {
+    width: 86px;
+    height: 86px;
+}
+
+.avatar {
+    position: absolute;
+    width: 80px;
+    height: 80px;
+    top: -50px;
+    left: 32px;
+}
+
+.selBtn_item {
+    &:hover {
+        color: white;
+    }
+
+}
+
+// footer
+.footer-banner {
+    background-image: url(../images/footer_sm.svg);
+    background-repeat: no-repeat;
+    background-size: 100vw;
+    background-position: top;
+    height: 461px;
+
+    @media(min-width: 768px) {
+        background-image: url(../images/home_footer.svg);
+        background-repeat: repeat-x;
+        background-size: 100vw;
+        height: 503px;
+    }
+}

@@ -1,0 +1,288 @@
+<!DOCTYPE html>
+<html lang="zh-TW">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="chatTalker AI 機器人">
+    <meta name="keywords" content="聊天,聊天機器人,chat,chatTalker" />
+    <meta name="author" content="How">
+
+    <meta property="og:title" content="chatTalker AI 機器人" />
+    <meta property="og:description" content="chatTalker AI 機器人">
+    <title>chatTalker AI 機器人</title>
+    <link href="images/shortcut logo.png" rel="shortcut icon" />
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-F3w7mX95PdgyTmZZMECAngseQB83DfGTowi0iMjiWaeVhAn4FJkqJByhZMI3AhiU" crossorigin="anonymous">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Comfortaa&family=Noto+Sans+TC:wght@400;700&family=Wendy+One&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="scss/all.css">
+</head>
+
+<body class="my-0 mx-auto">
+    <!-- button&ball -->
+    <div class="app position-relative">
+        <button id="topBtn" class="btn btn-primary text-white text-center  font-wendy rounded-circle"
+            onclick="topFunction()">TOP</button>
+        <div class="ball01_bg position-absolute"></div>
+        <div class="ball02_bg position-absolute"></div>
+        <div class="ball03_bg position-absolute"></div>
+
+        <!-- background-main -->
+        <div class="index_bg">
+            <!-- header -->
+            <header class="vh-100">
+                <nav class="navbar py-2 mb-lg-4">
+                    <div class="container d-flex justify-content-between align-items-center">
+                        <a href="index.html"><img src="images/logo.png" alt="mainlogo" class="logo"></a>
+                        <a href="price.html" target="_blank"
+                            class="btn btn-warning rounded-pill text-white px-4 py-1">方案費用</a>
+                    </div>
+                </nav>
+                <div class="d-sm-none border-bottom border-secondary border-3 mb-4"></div>
+                <div class="container">
+                    <div class="row">
+                        <div class="col-lg-6 d-flex flex-column justify-content-center">
+                            <h1 class="text-primary fs-5 fw-bold mb-2">ChatTalker 最全面的聊天機器人</h1>
+                            <p class="display-4 fw-bold mb-4">你愛我像誰?<br>扮演什麼角色我都會</p>
+                            <h2 class="fs-5">Facebook、Instagram、LINE 聊天機器人解決方案</h2>
+                        </div>
+                        <div class="col-lg-6"><img src="images/home.svg" alt="表頭背景人" class="img-fluid d-block"></div>
+                    </div>
+                </div>
+            </header>
+            <main>
+                <!-- social media -->
+                <div class="mb_xxl">
+                    <div class="container">
+                        <h3 class="text-center fw-bold mb-4 mb-lg-5 fs-1">三大平台，我來搞定</h3>
+                        <ul class="list-unstyled d-md-flex justify-content-between px-lg-4">
+                            <li class="text-center">
+                                <img src="images/messenger.svg" alt="facebook" class="mb-lg-3 mb-2 icon">
+                                <h4 class="fs-5 fw-bold mb-2">Facebook Messenger</h4>
+                                <p class="text-light">結合粉絲專頁，提高粉絲互動率<br>有效經營品牌社群</p>
+                            </li>
+                            <li class="text-center">
+                                <img src="images/line.svg" alt="LINE" class="mb-lg-3 mb-2 icon">
+                                <h4 class="fs-5 fw-bold mb-2">LINE 官方帳號</h4>
+                                <p class="text-light">融入日常生活，精準傳遞品牌資訊<br>打造個人化專屬服務</p>
+                            </li>
+                            <li class="text-center">
+                                <img src="images/instagram.svg" alt="instagram" class="mb-lg-3 mb-2 icon">
+                                <h4 class="fs-5 fw-bold mb-2">Instagram 商業帳號</h4>
+                                <p class="text-light">貼近粉絲，提升品牌自然聲量<br>行銷，抽獎一站完成</p>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+                <!-- character can be -->
+                <div class="mb_lg">
+                    <div class="container">
+                        <h3 class="text-center fw-bold fs-1 mb-2">任何的角色，我都能給</h3>
+                        <p class="text-center mb-lg-5 mb-4 h5">量身打造您想要的專屬服務，幫助您迅速判斷成效、並加快決策</p>
+                        <ul class="row list-unstyled row-cols-lg-4 row-cols-md-2 row-cols-1 card-group px-5 g-2 p-lg-0">
+                            <li class="col">
+                                <div class="card h-100 shadow-sm">
+                                    <img src="images/ch01.svg" alt="main-character" class="card-img-top">
+                                    <div class="card-body text-center">
+                                        <h5 class="text-primary card-title fw-bold my-2">活動主</h5>
+                                        <p class="card-text mb-3">用戶數位足跡掌握在手<br>精準取得用戶輪廓，提供分析</p>
+                                    </div>
+                                </div>
+                            </li>
+                            <li class="col">
+                                <div class="card h-100 shadow-sm">
+                                    <img src="images/ch02.svg" alt="creator" class="card-img-top">
+                                    <div class="card-body text-center">
+                                        <h5 class="text-primary card-title fw-bold my-2">創作者</h5>
+                                        <p class="card-text mb-3">自由設計互動腳本<br>輕鬆整合各項數據</p>
+                                    </div>
+                                </div>
+                            </li>
+                            <li class="col">
+                                <div class="card h-100 shadow-sm">
+                                    <img src="images/ch03.svg" alt="brand" class="card-img-top">
+                                    <div class="card-body text-center">
+                                        <h5 class="text-primary card-title fw-bold my-2">企業品牌</h5>
+                                        <p class="card-text mb-3">多元資料整合，做出服務差異化<br>幫助企業加速決策</p>
+                                    </div>
+                                </div>
+                            </li>
+                            <li class="col">
+                                <div class="card h-100 shadow-sm">
+                                    <img src="images/ch04.svg" alt="others" class="card-img-top">
+                                    <div class="card-body text-center">
+                                        <h5 class="text-primary card-title fw-bold my-2">其他</h5>
+                                        <p class="card-text mb-3">創造更多可能...</p>
+                                    </div>
+                                </div>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+                <!-- Profiling -->
+                <div class="container mb_lg">
+                    <div class="row flex-lg-row-reverse">
+                        <div
+                            class="col-lg-6 d-flex justify-content-center align-items-center text-lg-start text-center ps-lg-5 mb-4">
+                            <div>
+                                <h3 class="fw-bold fs-1 mb-2">快速了解客戶輪廓<br>建立品牌流量池</h3>
+                                <p class="mb-2">深入用戶日常，成為用戶貼身好友 精準傳遞品牌資訊，打造個人化專屬服務 不知不覺深入用戶生活，成為用戶貼心的好朋朋:D</p>
+                                <a href="price.html" class="btn btn-primary rounded-pill text-white py-1 px-4"
+                                    target="_blank">方案費用</a>
+                            </div>
+                        </div>
+                        <div class="col-lg-6 p-lg-1">
+                            <ul class="list-unstyled row row-cols-1 row-cols-md-2 g-2 px-5 p-lg-5 ps-lg-0">
+                                <li class="col">
+                                    <div class="card h-100 p-3 shadow-sm">
+                                        <div class="circle-icon shadow-sm rounded-circle d-flex justify-content-center
+                                    align-items-center mb-3">
+                                            <img src="images/icon01.svg" alt="transform">
+                                        </div>
+                                        <div class="card-body">
+                                            <h6 class="fs-5 fw-bold mb-3">無敵轉換術</h6>
+                                            <p>精準掌握客群來源<br>分析用戶轉化流程</p>
+                                        </div>
+                                    </div>
+                                </li>
+                                <li class="col">
+                                    <div class="card h-100 p-3 shadow-sm">
+                                        <div class="circle-icon shadow-sm rounded-circle d-flex justify-content-center
+                                align-items-center mb-3">
+                                            <img src="images/icon03.svg" alt="message">
+                                        </div>
+                                        <div class="card-body">
+                                            <h6 class="fs-5 fw-bold mb-3">一站式訊息中心</h6>
+                                            <p>整合Messenger、LINE<br>和IG三大平台訊息
+                                            </p>
+                                        </div>
+                                    </div>
+                                </li>
+                                <li class="col">
+                                    <div class="card h-100 p-3 shadow-sm">
+                                        <div class="circle-icon shadow-sm rounded-circle d-flex justify-content-center
+                                align-items-center mb-3">
+                                            <img src="images/icon02.svg" alt="chatbot">
+                                        </div>
+                                        <div class="card-body">
+                                            <h6 class="fs-5 fw-bold mb-3">聊天機器人</h6>
+                                            <p>66款聊天機器人模組<br>自由設計聊天流程</p>
+                                        </div>
+                                    </div>
+                                </li>
+                                <li class="col">
+                                    <div class="card h-100 p-3 shadow-sm">
+                                        <div class="circle-icon shadow-sm rounded-circle d-flex justify-content-center
+                                align-items-center mb-3">
+                                            <img src="images/icon04.svg" alt="group">
+                                        </div>
+                                        <div class="card-body">
+                                            <h6 class="fs-5 fw-bold mb-3">群發訊息</h6>
+                                            <p>自由選定特定受眾<br>精準推送群發訊息</p>
+                                        </div>
+                                    </div>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+                <!-- reviews -->
+                <div class="mb_lg">
+                    <div class="container">
+                        <h3 class="text-center fw-bold fs-1 mb_xl">好評如潮</h3>
+                        <ul class="list-unstyled row row-cols-1 row-cols-lg-3">
+                            <li class="col">
+                                <div class="card shadow-sm">
+                                    <div class="card-body">
+                                        <p class="mt-5 position-relative">
+                                            原來聊天機器人可以這麼有人性！團隊非常的專業，有完整的行銷計畫提供數位整合，讓我們公司的產品用更活潑的方式讓使用者認識。</p>
+                                        <img src="images/user01.jpg" alt="user01" class="rounded-circle avatar">
+                                        <div class="border-bottom border-2 my-2"></div>
+                                        <h6 class="fw-bold">清心寡慾設計中心</h6>
+                                        <div class="d-flex justify-content-between">
+                                            <span>Lina 執行長</span>
+                                            <div class="me-2">
+                                                <img src="images/icon_star.svg" alt="star">
+                                                <img src="images/icon_star.svg" alt="star">
+                                                <img src="images/icon_star.svg" alt="star">
+                                                <img src="images/icon_star.svg" alt="star">
+                                                <img src="images/icon_star.svg" alt="star">
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </li>
+                            <li class="col d-none d-lg-block">
+                                <div class="card shadow-sm">
+                                    <div class="card-body">
+                                        <p class="mt-5 position-relative">
+                                            團隊很積極的協助行銷追蹤，針對機器人進行優化，讓我們一個月內提高10000個追蹤者，客戶體驗回饋很正面！</p>
+                                        <img src="images/user02.jpg" alt="user02" class="rounded-circle avatar">
+                                        <div class="border-bottom border-2 my-2"></div>
+                                        <h6 class="fw-bold">subwhat 行銷公司</h6>
+                                        <div class="d-flex justify-content-between">
+                                            <span>Zoe 活動長</span>
+                                            <div class="me-2">
+                                                <img src="images/icon_star.svg" alt="star">
+                                                <img src="images/icon_star.svg" alt="star">
+                                                <img src="images/icon_star.svg" alt="star">
+                                                <img src="images/icon_star.svg" alt="star">
+                                                <img src="images/icon_star.svg" alt="star">
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </li>
+                            <li class="col d-none d-lg-block">
+                                <div class="card shadow-sm">
+                                    <div class="card-body">
+                                        <p class="mt-5 position-relative">
+                                            經營了好久的IG，一直無法提升粉絲數，和團隊合作後，才知道可以用聊天機器人玩這麼豐富的行銷活動！太讚拉～</p>
+                                        <img src="images/user03.jpg" alt="user03" class="rounded-circle avatar">
+                                        <div class="border-bottom border-2 my-2"></div>
+                                        <h6 class="fw-bold">油土伯</h6>
+                                        <div class="d-flex justify-content-between">
+                                            <span>HowBig</span>
+                                            <div class="me-2">
+                                                <img src="images/icon_star.svg" alt="star">
+                                                <img src="images/icon_star.svg" alt="star">
+                                                <img src="images/icon_star.svg" alt="star">
+                                                <img src="images/icon_star.svg" alt="star">
+                                                <img src="images/icon_star.svg" alt="star">
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </main>
+        </div>
+    </div>
+
+
+    <!-- footer -->
+    <div class="footer-banner d-flex flex-column justify-content-end align-items-center mb_lg">
+        <p class="fw-bold h2 mb-3">\ 美好用戶體驗，從對話開始 /</p>
+        <a href="price.html" class="btn btn-primary rounded-pill text-white py-1 px-4 d-block" target="_blank">方案費用</a>
+    </div>
+
+    <footer class="bg-info text-center py-2">© 2022 chatTalker. All Rights Reserved.</footer>
+
+    </div>
+
+
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-/bQdsTh/da6pkI1MST/rWKFNjaCP5gBSY4sEBT38Q/9RBh9AH40zEOg7Hlq2THRZ"
+        crossorigin="anonymous"></script>
+    <script src="all.js"></script>
+</body>
+
+</html>
